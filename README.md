@@ -164,14 +164,6 @@ N = 50    # Untuk analisis konvergensi rasio
 
 ### Architecture Overview
 
-```
-Fibonacci Generator
-├── Presentation Layer (GUI Interface)
-├── Business Logic Layer (Fibonacci Calculator)
-├── Data Access Layer (History Manager)
-└── Visualization Layer (Matplotlib Graphs)
-```
-
 ### Workflow Diagram
 
 ```mermaid
