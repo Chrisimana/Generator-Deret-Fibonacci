@@ -162,8 +162,6 @@ N = 50    # Untuk analisis konvergensi rasio
 
 ## 📚 Dokumentasi
 
-### Architecture Overview
-
 ### Workflow Diagram
 
 ```mermaid
