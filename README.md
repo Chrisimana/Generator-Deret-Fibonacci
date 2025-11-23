@@ -10,7 +10,6 @@
 
 **Aplikasi canggih untuk menghasilkan, menganalisis, dan memvisualisasikan deret Fibonacci dengan antarmuka grafis modern**
 
-[Fitur](#-fitur) • [Instalasi](#-instalasi) • [Penggunaan](#-penggunaan) • [Dokumentasi](#-dokumentasi)
 </div>
 
 ## 📋 Daftar Isi
@@ -162,20 +161,6 @@ N = 50    # Untuk analisis konvergensi rasio
 
 ## 📚 Dokumentasi
 
-### Workflow Diagram
-
-```mermaid
-graph TD
-    A[User Input N] --> B{Input Validation}
-    B --> C[Fibonacci Calculation]
-    C --> D[Generate Sequence]
-    D --> E[Statistical Analysis]
-    E --> F[Visualization]
-    F --> G[History Storage]
-    G --> H[Display Results]
-    H --> I[Update GUI]
-```
-
 ### Mathematical Foundation
 
 Deret Fibonacci didefinisikan sebagai:
@@ -198,39 +183,6 @@ Rasio Golden Ratio (φ) ≈ 1.61803398875
 | `history_manager.py` | Manajemen penyimpanan dan load riwayat |
 | `gui_interface.py` | Antarmuka pengguna dengan Tkinter dan Matplotlib |
 | `requirements.txt` | Dependencies yang diperlukan |
-
-## ⚙️ Konfigurasi
-
-### Customization Settings
-
-Edit kode di `gui_interface.py` untuk menyesuaikan:
-
-```python
-# Warna tema
-COLOR_SCHEME = {
-    'primary': '#2c3e50',
-    'secondary': '#34495e', 
-    'accent': '#3498db',
-    'success': '#27ae60',
-    'warning': '#f39c12',
-    'danger': '#e74c3c'
-}
-
-# Pengaturan grafik
-GRAPH_CONFIG = {
-    'figure_size': (10, 4),
-    'dpi': 100,
-    'style': 'ggplot'
-}
-```
-
-### Performance Settings
-
-```python
-# Untuk deret yang sangat besar
-MAX_SEQUENCE_LENGTH = 10000
-MEMORY_OPTIMIZATION = True
-```
 
 ## 💡 Contoh Penggunaan
 

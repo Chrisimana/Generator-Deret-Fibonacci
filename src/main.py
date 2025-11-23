@@ -1,5 +1,5 @@
 import tkinter as tk
-from gui_interface import AntarmukaFibonacci
+from gui import AntarmukaFibonacci
 
 def main():
 
